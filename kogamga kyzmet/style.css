@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: block;
+}
+.header {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  height: 900px;
+  padding: 20px 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f5f5f5;
+  border-bottom: 2px solid #444;
+  z-index: 100;
+  position: relative;
+  top: 0;
+  background-image: url(./pexels-photo-28352167.jpeg);
+}
+nav {
+  flex: 1;
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  justify-content: center;
+}
+.nav_link {
+  padding: 30px;
+  margin-right: 60px;
+  background-color: #4d6073;
+  border-radius: 20px;
+  height: 10px;
+  text-align: center;
+  line-height: 1px;
+}
+.nav_link a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 25px;
+  transition: color 0.3s;
+}
+
+.nav_link a:hover {
+  color: #011b35;
+}
+.header_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 30px;
+}
+#about {
+  display: flex;
+  background-color: #4d6073;
+  justify-content: space-between;
+  padding: 100px 20px;
+  position: relative;
+  flex-direction: column;
+}
+.about_title {
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  margin-left: 600px;
+  border-bottom: #f5f5f5;
+}
+.about_subtitle {
+  margin-top: 70px;
+  font-size: 25px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 520px;
+  color: #fff;
+}
+table {
+  width: 70%;
+  background-color: #fff;
+  margin-top: 80px;
+  justify-content: center;
+  margin-left: 170px;
+}
+tr:first-child {
+  height: 70px;
+}
+
+td {
+  height: 40px;
+  color: #011b35;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+th {
+  color: black;
+  font-size: 30px;
+}
+.usa {
+  color: #294c6f;
+}
+.russia {
+  color: #0c4985;
+}
+.india {
+  color: #ce711a;
+}
+.brazil {
+  color: #0c5914;
+}
+.mexico {
+  color: #28ab32;
+}
+.china {
+  color: #941010;
+}
+.kazakhstan {
+  color: #0e7dec;
+}
+.particle_right {
+  position: absolute;
+  right: 0;
+}
+.particle_left {
+  position: absolute;
+  left: 0;
+}
+.stories_title {
+  text-align: center;
+  margin-left: 34%;
+}
+.stories_title h1 {
+  font-size: 48px;
+  color: #011b35;
+  font-weight: bold;
+  width: 50%;
+  padding-bottom: 10px;
+  padding-top: 55px;
+}
+.stories_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 65px;
+}
+.stories_cards {
+  display: flex;
+  flex-direction: column;
+}
+.stories_stories {
+  width: 400px;
+  height: 1250px;
+  background-color: #4d6073;
+  border: #4d6073 8px solid;
+  margin: 100px;
+  position: relative;
+  padding: 40px;
+  border-radius: 5%;
+  transition: 300ms;
+}
+.stories_stories_title {
+  font-size: 26px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  text-align: center;
+}
+.stories_story {
+  padding-top: 25px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: medium;
+}
+
+.stories_story_text {
+  padding: 15px;
+}
+#help {
+  padding: 100px;
+}
+
+.help_title h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+.help_subtitle p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.help_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  flex: 1; /* Колонки будут равны по ширине */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 50px;
+  height: 300px;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+  border-bottom: #4d6073;
+}
+
+.card ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+.card ul img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+a {
+  color: #da3351;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card .photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
